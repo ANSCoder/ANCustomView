@@ -14,6 +14,7 @@
 		170A141A201DBF99004E8F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170A1418201DBF99004E8F2C /* LaunchScreen.storyboard */; };
 		170A1425201DBF99004E8F2C /* ANCustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A1424201DBF99004E8F2C /* ANCustomViewTests.swift */; };
 		170A1430201DBF99004E8F2C /* ANCustomViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A142F201DBF99004E8F2C /* ANCustomViewUITests.swift */; };
+		170A143E201DBFA9004E8F2C /* ANCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A143D201DBFA9004E8F2C /* ANCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		170A142B201DBF99004E8F2C /* ANCustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANCustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		170A142F201DBF99004E8F2C /* ANCustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANCustomViewUITests.swift; sourceTree = "<group>"; };
 		170A1431201DBF99004E8F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170A143D201DBFA9004E8F2C /* ANCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANCustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		170A140E201DBF98004E8F2C /* ANCustomView */ = {
 			isa = PBXGroup;
 			children = (
+				170A143F201DBFB2004E8F2C /* Source */,
 				170A140F201DBF98004E8F2C /* AppDelegate.swift */,
 				170A1411201DBF98004E8F2C /* ViewController.swift */,
 				170A1413201DBF98004E8F2C /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				170A1431201DBF99004E8F2C /* Info.plist */,
 			);
 			path = ANCustomViewUITests;
+			sourceTree = "<group>";
+		};
+		170A143F201DBFB2004E8F2C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				170A143D201DBFA9004E8F2C /* ANCustomView.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170A143E201DBFA9004E8F2C /* ANCustomView.swift in Sources */,
 				170A1412201DBF98004E8F2C /* ViewController.swift in Sources */,
 				170A1410201DBF98004E8F2C /* AppDelegate.swift in Sources */,
 			);

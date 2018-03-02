@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewCircle: ANCustomView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func actionAnimateView(_ sender: UIButton) {
+        //Animation for View here
+        viewCircle.AnimateView()
     }
-
 
 }
 
